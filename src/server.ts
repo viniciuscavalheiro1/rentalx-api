@@ -7,4 +7,5 @@ app.use(express.json());
 
 app.use("/categories", categoriesRoutes);
 
-app.listen(3000, () => console.log("Server is running!"));  
+const PORT = 3000;
+app.listen(3000, () => console.log(`Server is running! PORT${PORT}`));  
